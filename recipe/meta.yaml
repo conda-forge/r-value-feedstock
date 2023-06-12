@@ -1,4 +1,4 @@
-{% set version = '2.2.2' %}
+{% set version = '2.2.1' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/SantanderMetGroup/VALUE/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 8558dcbf447489577aa2d2f26b4e5230c25bd324b617f8b35cb34f0af4ae7d11
+  sha256: d8c397a645d1c66e7e2a0c3919048e073a6db798927f19379dd2929f8c0fdabf
 
 build:
   merge_build_host: True  # [win]
