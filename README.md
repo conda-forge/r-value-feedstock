@@ -1,11 +1,11 @@
-About r-value
-=============
+About r-value-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-value-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.value-cost.eu/
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-value-feedstock/blob/main/LICENSE.txt)
 
 Summary: Indices and measures to perform climate data validation in the Framework of the COST Action VALUE. See the reference paper <https://doi.org/10.1002/joc.5462>.
 
