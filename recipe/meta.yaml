@@ -12,7 +12,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -30,24 +30,24 @@ requirements:
     - r-rcppeigen
     - r-abind
     - r-evd
-    - r-loader >=1.4.10
     - r-magrittr
     - r-pbapply
     - r-signal
-    - r-transformer
     - r-verification
+    - r-transformer
+    - r-loader >=1.4.10
   run:
     - r-base
     - r-rcurl
     - r-rcppeigen
     - r-abind
     - r-evd
-    - r-loader >=1.4.10
     - r-magrittr
     - r-pbapply
     - r-signal
-    - r-transformer
     - r-verification
+    - r-transformer
+    - r-loader >=1.4.10
 
 test:
   commands:
